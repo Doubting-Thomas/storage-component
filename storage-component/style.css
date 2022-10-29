@@ -98,14 +98,14 @@ section {
 }
 
 .dot {
-  height: 1.6rem;
-  width: 1.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
   border-radius: 50%;
   display: inline-block;
   background-color: var(--color-neutral-1);
   position: absolute;
   top: 10rem;
-  left: 27rem;
+  right: 18rem;
   transform: translateY(-10rem);
 }
 
