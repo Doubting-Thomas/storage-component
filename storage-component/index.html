@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Storage Component</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="first-container">
+            <div class="logo-container">
+              <img src="images/logo.svg" alt="logo-image" class="logo-image" />
+            </div>
+
+            <div class="image-box">
+              <img
+                src="images/icon-document.svg"
+                alt="document-image"
+                class="icons"
+              />
+              <img
+                src="images/icon-folder.svg"
+                alt="document-image"
+                class="icons"
+              />
+              <img
+                src="images/icon-upload.svg"
+                alt="document-image"
+                class="icons"
+              />
+            </div>
+          </div>
+
+          <div class="second-container">
+            <p class="usage-text">
+              You've used <span class="data-amount">815 GB</span> of your
+              storage
+            </p>
+
+            <form action="#" class="space-remainder">
+              <input type="text" class="text-box" />
+
+              <span class="dot"></span>
+            </form>
+
+            <div class="data-storage">
+              <p class="data-amount">0 GB</p>
+              <p class="data-amount">1000 GB</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="last-container">
+          <div class="remainder-alert">
+            <h1 class="heading-main">
+              185 <span class="storage-alert">GB left</span>
+            </h1>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
